@@ -190,6 +190,12 @@
     background: rgba(255, 255, 255, 1);
 }
 
+.note-content h4 {
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 16px;
+}
+
 .note-content .note-icon {
     width: 60px;
     height: 60px;
