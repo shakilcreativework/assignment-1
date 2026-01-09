@@ -231,6 +231,11 @@
     gap: 60px;
 }
 
+.solution-img img {
+    width: 600px;
+    height: 600px;
+}
+
 .solution-info h4 {
     color: rgba(70, 145, 101, 1);
     text-transform: uppercase;
