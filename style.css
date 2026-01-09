@@ -91,3 +91,28 @@
     color: chocolate;
     transition: all .3s;
 }
+
+/* hero area */
+.hero-section {
+    background: url(./assets/hero-bg.png);
+    padding-top: 155px;
+    padding-bottom: 190px;
+}
+.hero-content {
+    text-align: center;
+}
+
+.hero-btn {
+    display: flex;
+    gap: 6px;
+    margin: 0 auto;
+    padding: 8px 12px 8px 12px;
+    background: #fff;
+    color: #30B868;
+    border-radius: 50px;
+}
+
+.hero-btn:hover {
+    color: #000;
+    transition: all .3s;
+}
