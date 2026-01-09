@@ -97,6 +97,7 @@
     background: url(./assets/hero-bg.png);
     padding-top: 155px;
     padding-bottom: 190px;
+    background-repeat: no-repeat;
 }
 .hero-content {
     text-align: center;
@@ -110,9 +111,42 @@
     background: #fff;
     color: #30B868;
     border-radius: 50px;
+    margin-bottom: 16px;
 }
 
 .hero-btn:hover {
     color: #000;
     transition: all .3s;
+}
+
+.hero-content {
+    width: 770px;
+    max-width: 770px;
+    margin: 0 auto;
+}
+
+.hero-content h1 {
+    font-size: 72px;
+    line-height: 84px;
+    color: #30B868;
+    margin-bottom: 16px;
+}
+
+.hero-content h1 span {
+    font-size: 72px;
+    line-height: 84px;
+    color: white;
+}
+
+.hero-content p {
+    font-size: 18px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 32px;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
 }
